@@ -69,8 +69,7 @@ public class FungsiQueue<T> implements QueInterface<T> {
         temp = front;
         front = front.getNext();
         temp.setNext(null);
-
-        size--;
+;
         System.out.println("Antrian telah diproses !");
     }else {
         System.out.println("Antrian Kosong");

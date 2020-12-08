@@ -27,7 +27,9 @@ public class FungsiQueueTest {
     public void deQueue() {
         ADT adt = new ADT("Naufal", "Ikan_Bakar", 1);
         fungsi.enQueue(adt);
+        fungsi.first();
         fungsi.deQueue();
+        fungsi.first();
     }
 
     @Test
